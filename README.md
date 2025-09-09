@@ -50,7 +50,7 @@ mkdir build
 cd build
 
 # 预编译
-cmake .. -DOPUS_BUILD_SHARED_LIBRARY=ON
+cmake .. -DOPUS_BUILD_SHARED_LIBRARY=ON -DOPUS_BUILD_PROGRAMS=OFF -DOPUS_BUILD_TESTING=OFF
 
 # 编译
 cmake --build . --config Release
